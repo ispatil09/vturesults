@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VTU CBCS Result</title>
+		<meta charset="utf-8">    
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+		<style>
+			@media print
+			{
+				.hidebtn
+				{
+					display: none;
+				}
+			}
+		</style>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">		
+	</head>
+	<body style="background:#f0f0f0">
+		<div class="container" style="background:white">
+			<div class="row" style="">
+				<div class="col-md-12" style="margin:0px;box-shadow:0px 5px 20px 5px #888888;">
+					<div class="row">
+						<div class="container">
+							<div class="row">
+								<img src="images/logo.png" class="img-responsive"/>
+							</div>
+						</div>
+					</div>
+						<!DOCTYPE html>
+	<html>
+	
+	
+		<div class="row" style="margin:0px;margin-top:15px">
+			<div class="col-md-12" style="background:#F5EEE3">
+				<h3 style="text-align:center;color:#0B9DEA;margin-bottom:20px;"> VTU Provisional Result (CBCS)
+				</h3>
+			</div>
+		</div>
+	</html>								<div class="row" style="margin-top:20px;font-family:Times New Roman;">
+								<div class="col-md-12">
+									<div class="panel panel-info">
+										<div class="panel-heading text-center" style="color: black;"><span class="glyphicon glyphicon-globe"></span> <b> PROVISIONAL RESULT FOR JUNE / JULY 2017 EXAMINATION </b></div>
+										<div class="panel-body" style="font-size:13pt;">
+											
+											
+																														<div class="row" style="margin-bottom:10px;">
+																				<div class="col-md-12">
+																					<table style="margin-left:10px;margin-top:10px">
+																						<tr style="padding:20px;color:black;">
+																							<td style="margin-left:30px"><b>University Seat Number</b>	</td>
+																							<td style="padding-left:15px;text-transform:uppercase"><b> :</b> 2KE16CV003</td>
+																						</tr>
+																						<tr style="height:35px;color:black;">
+																							<td><b>Student Name </b></td>
+																							<td style="padding-left:15px"><b>:</b> ADITYA HULLOLI</td>
+																						</tr>
+																					</table>
+																				</div>
+																			</div>
+																																							
+
+
+
+																		<div class="row" style="margin-bottom:10px;">
+																			<div class="col-md-12">
+																				<div style="text-align:center;padding:5px;color:black;"><b>Semester : </b>2</div>
+																					<table class="table table-bordered"> 
+
+																							
+
+
+																																													<thead>
+																								<tr style="color:black;">
+																									<th style="text-align:center;">Subject Code</th>
+																									<th style="text-align:center;">Subject Name</th>
+																									<th style="text-align:center;">Internal Marks</th>
+																									<th style="text-align:center;">External Marks</th>
+																									<th style="text-align:center;">Total</th>
+																									<th style="text-align:center;">Result</th>
+																								</tr>																
+																							</thead>
+																																													<tbody>
+																							<tr>
+																								<td style="text-align:left;">15MAT21</td>
+																								<td style="text-align:left;">ENGINEERING MATHS-II</td>
+																								<td style="text-align:center;">9</td>
+																								
+																																																<td style="text-align:center;">4</td>
+																								<td style="text-align:center;">13</td>
+																								<td style="text-align:center;">F</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15CHE22</td>
+																								<td style="text-align:left;">ENGINEERING CHEMISTRY</td>
+																								<td style="text-align:center;">12</td>
+																								
+																																																<td style="text-align:center;">10</td>
+																								<td style="text-align:center;">22</td>
+																								<td style="text-align:center;">F</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15PCD23</td>
+																								<td style="text-align:left;">PROGRAMMING IN C & DATA STRUCTURES</td>
+																								<td style="text-align:center;">13</td>
+																								
+																																																<td style="text-align:center;">15</td>
+																								<td style="text-align:center;">28</td>
+																								<td style="text-align:center;">F</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15CED24</td>
+																								<td style="text-align:left;">COMPUTER AIDED ENGINEERING DRAWING</td>
+																								<td style="text-align:center;">12</td>
+																								
+																																																<td style="text-align:center;">31</td>
+																								<td style="text-align:center;">43</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15ELN25</td>
+																								<td style="text-align:left;">BASIC ELECTRONICS</td>
+																								<td style="text-align:center;">12</td>
+																								
+																																																<td style="text-align:center;">7</td>
+																								<td style="text-align:center;">19</td>
+																								<td style="text-align:center;">F</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15CPL26</td>
+																								<td style="text-align:left;">COMPUTER PROGRAMMING LAB.</td>
+																								<td style="text-align:center;">18</td>
+																								
+																																																<td style="text-align:center;">63</td>
+																								<td style="text-align:center;">81</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15CHEL27</td>
+																								<td style="text-align:left;">ENGINEERING CHEMISTRY LAB.</td>
+																								<td style="text-align:center;">17</td>
+																								
+																																																<td style="text-align:center;">70</td>
+																								<td style="text-align:center;">87</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15CIV28</td>
+																								<td style="text-align:left;">ENVIRONMENTAL STUDIES</td>
+																								<td style="text-align:center;">6</td>
+																								
+																																																<td style="text-align:center;">25</td>
+																								<td style="text-align:center;">31</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																																												
+																					</table>
+																				
+																			
+																			</div>
+																			<!--																			<table style="margin-left:30px;margin-bottom:5px">
+																				<tr style="height:30px">
+																					<td><b>Total Marks</b></td>
+																					
+																					<td style="padding-left:10px"><b>:  </b></td>
+																				</tr>
+																				<tr>
+																					<td><b>Result</b></td>
+																					<td style="padding-left:10px"><b>: </b></td>
+																				</tr>
+
+																			</table> -->
+																		
+																	</div>
+																
+																																				
+
+
+
+																		<div class="row" style="margin-bottom:10px;">
+																			<div class="col-md-12">
+																				<div style="text-align:center;padding:5px;color:black;"><b>Semester : </b>1</div>
+																					<table class="table table-bordered"> 
+
+																							
+
+
+																																													<thead>
+																								<tr style="color:black;">
+																									<th style="text-align:center;">Subject Code</th>
+																									<th style="text-align:center;">Subject Name</th>
+																									<th style="text-align:center;">Internal Marks</th>
+																									<th style="text-align:center;">External Marks</th>
+																									<th style="text-align:center;">Total</th>
+																									<th style="text-align:center;">Result</th>
+																								</tr>																
+																							</thead>
+																																													<tbody>
+																							<tr>
+																								<td style="text-align:left;">15MAT11</td>
+																								<td style="text-align:left;">ENGINEERING MATHS-I</td>
+																								<td style="text-align:center;">12</td>
+																								
+																																																<td style="text-align:center;">29</td>
+																								<td style="text-align:center;">41</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15PHY12</td>
+																								<td style="text-align:left;">ENGINEERING PHYSICS</td>
+																								<td style="text-align:center;">10</td>
+																								
+																																																<td style="text-align:center;">30</td>
+																								<td style="text-align:center;">40</td>
+																								<td style="text-align:center;">P</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																							
+
+
+																																												<tbody>
+																							<tr>
+																								<td style="text-align:left;">15ELE15</td>
+																								<td style="text-align:left;">BASIC ELECTRICAL ENGINEERING</td>
+																								<td style="text-align:center;">12</td>
+																								
+																																																<td style="text-align:center;">9</td>
+																								<td style="text-align:center;">21</td>
+																								<td style="text-align:center;">F</td>	
+																							</tr>
+																						</tbody>
+																						
+																						
+																																												
+																					</table>
+																				
+																			
+																			</div>
+																			<!--																			<table style="margin-left:30px;margin-bottom:5px">
+																				<tr style="height:30px">
+																					<td><b>Total Marks</b></td>
+																					
+																					<td style="padding-left:10px"><b>:  </b></td>
+																				</tr>
+																				<tr>
+																					<td><b>Result</b></td>
+																					<td style="padding-left:10px"><b>: </b></td>
+																				</tr>
+
+																			</table> -->
+																		
+																	</div>
+																
+																	 				
+										</div>
+										
+									</div>
+								</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="panel panel-info">
+											<div class="panel-heading text-center" style="background-color: rgba(163, 102, 47, 0.5);color: black;font-size: 15pt;"><span class="glyphicon glyphicon-th-list"></span> Nomenclature / Abbreviations</div>
+											<div class="panel-body" style="font-size:10pt;color: black;">
+												<table>
+													<tr>
+														<td>P -> PASS,</td>
+														<td>F -> FAIL,</td>
+														<td>A -> ABSENT,</td>
+													</tr>
+													<tr><td><br /></td></tr>
+													<tr>
+														<td>W -> WITHHELD,</td>
+														<td>X -> NOT ELIGIBLE</td>
+														<td></td>
+													</tr>
+													<tr><td><br /></td></tr>
+													<tr>
+														<td style="rowspan:2;font-size: 11pt;color: black;"><b>Note : Withhold results to be announced later</b></td>
+													</tr>
+												</table>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="panel panel-success">									
+											<div class="panel-heading" style="background-color: rgba(163, 102, 47, 0.5);color: black;font-size: 15pt;"><span class="glyphicon glyphicon-check"></span> <strong>Note :</strong></div>
+											<div class="panel-body">
+												<p style="font-size:14pt;color: red;"> Currently marks and Pass / Fail status are being displayed for each subject. Credits Earned, GPA, Letter Grades and SGPA will be displayed after completion of revaluation </p>
+											</div>										
+										</div>
+									</div>
+								</div>
+								<div class="row" style="text-align:right;margin-top:20px;margin-bottom:10px;">
+									<div class="col-md-4"></div>
+									<div class="col-md-4"></div>
+									<div class="col-md-4">
+									<table class="pull-right" style="margin-right:10px;margin-top:10px;color:black;">
+										<tr style="padding:20px">
+											<td style="text-align:center;"><b>Sd/-</b></td>
+										</tr>
+										<tr>
+											<td class="pull-left" style="margin:20px"><b>REGISTRAR EVALUATION</b></td>
+										</tr>									
+									</table>
+									</div>
+								</div>
+								
+								<div class="">
+									<div class="col-md-6"></div>
+									<div class="col-md-4"></div>
+									<div class="col-md-2" style="margin-bottom:10px;">
+										<a href="index.php" class="hidebtn"><input type="button" style="color:black;" class="form-control btn btn-info hidebtn" value="BACK" /></a>
+									</div>
+								</div>
+
+								<div class="row"> 
+									<div class="col-md-12" style="background:#494e54;margin:0px;box-shadow:0px 5px 20px 5px #888888;">
+										<footer class="footer" style="margin:15px 0px 15px 0px ">
+											<div class="row phide"> 								
+												<div class="col-md-12" >© 2017 ????????????? ???????? ?????????????, "????? ????", ???????, ???????, ????<span class="pull-right"> | Visvesvaraya Technological University – Belagavi, Karnataka, India </span></div>
+											</div>
+										</footer>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+

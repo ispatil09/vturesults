@@ -1,0 +1,14 @@
+- Excel file format: DONE
+- Relative Path, Bundling: DONE
+- Sysout remove: DONE
+- year and sem
+	> Input text file: DONE
+	> URL: DONE
+	> Semester:_2 - Look for the negligence of user for " " : DONE
+- User documentation :
+- Exception : NEGLECTED - since such situations of exceptions are taken care of
+	> not to terminate, Repeatedly trying ..cv001
+	> Committing the read data to Excel file after exception this especially done by 'ArrayIndexOutOfBounds'
+	> 
+- Connection Timeout: Repeatedly calls the the same USN: TAKEN CARE IN A DIFFERENT WAY
+- sf.net upload

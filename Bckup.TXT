@@ -1,0 +1,195 @@
+package edu.mf.entity;
+
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+public class Student {
+	private String usn = "";
+	private String studentName = "XYZ";
+	private int numOfSubjectsFound = 0;
+	private SITE_SOURCE siteSource = SITE_SOURCE.FAST_VTU;
+	private SEMESTER_URLID semester_URLID = null;
+	/**
+	 * Two dimensional array containing resukt information.
+	 * 1st column contains - External Marks 
+	 * 2nd column contains - Internal Marks 
+	 * 3rd column contains - Total
+	 * 4th column contains - Result
+	 */
+	private String[][] resultData = new String[20][5];
+
+	public Student(String usn, SITE_SOURCE site_SOURCE, SEMESTER_URLID semester_URLID) throws IOException {
+		this.usn=usn;
+		this.siteSource=site_SOURCE;
+		this.semester_URLID=semester_URLID;
+		extractFromVTU();
+		//extractFromFVR();
+	}
+
+	private void extractFromFVR() {
+		try {
+			String SEMESTER_URL_ID = getSemNumber();
+
+			 /*String FVR_URL_ID_SEM_1 = "/180012113";
+			 String FVR_URL_ID_SEM_2 = "/360024225";
+			 String FVR_URL_ID_SEM_3 = "/540036337";
+			 String FVR_URL_ID_SEM_4 = "/720048449";
+			 String FVR_URL_ID_SEM_5 = "/900060561";
+			 String FVR_URL_ID_SEM_6 = "/1080072673";
+			 String FVR_URL_ID_SEM_7 = "/1260084785";
+			 String FVR_URL_ID_SEM_8 = "/1440096897";*/
+			String url = "http://www.fastvturesults.com/result/"+usn+SEMESTER_URL_ID;
+	         Document doc = Jsoup.connect(url).userAgent("Chrome").get();
+	         //Elements tableElements = doc.select("tr");
+	         Element resultTable = doc.getElementById("scell");
+	         if(resultTable==null)
+	        	 return;
+	         Elements tableElements = resultTable.select("tr");
+	         for (int i = 1; i < tableElements.size(); i++) {
+	            Element row = tableElements.get(i);
+	            Elements rowItems = row.select("td");
+	            int actualColumnSize = rowItems.size();
+	            int requiredColumnsSize = actualColumnSize-2;
+				//if (isMarksRow(rowItems)) {
+					resultData[numOfSubjectsFound][0] = rowItems.get(0).text();
+					for (int j = 0; j < requiredColumnsSize; j++) {
+						System.out.print(rowItems.get(j).text()+"  ");
+					}
+					System.out.println(":,");
+					//for (int j = 2; j < requiredColumnsSize-1; j++) {
+					String externalMarks = rowItems.get(3).text();
+					resultData[numOfSubjectsFound][1] = externalMarks;
+						String internalMarks = rowItems.get(2).text();
+						resultData[numOfSubjectsFound][2] = internalMarks;
+						String totalMarks = rowItems.get(4).text();
+						resultData[numOfSubjectsFound][3] = totalMarks;
+						String result = rowItems.get(5).text();
+						resultData[numOfSubjectsFound][4] = result;
+					
+					//}
+					resultData[numOfSubjectsFound][requiredColumnsSize-1] = rowItems.get(requiredColumnsSize-1).text();					
+					numOfSubjectsFound++;
+					System.out.println("");
+				//}
+	         }
+	         	
+	      } catch (IOException e) {
+	         e.printStackTrace();
+	      }
+	}
+
+	private String getSemNumber() {
+		switch (this.semester_URLID) {
+		case FVR_URL_ID_SEM_1:
+			return "/180012113";
+		case FVR_URL_ID_SEM_2:
+			return "/360024225";
+		case FVR_URL_ID_SEM_3:
+			return "/540036337";
+		case FVR_URL_ID_SEM_4:
+			return "/720048449";
+		case FVR_URL_ID_SEM_5:
+			return "/900060561";
+		case FVR_URL_ID_SEM_6:
+			return "/1080072673";
+		case FVR_URL_ID_SEM_7:
+			return "/1260084785";
+		case FVR_URL_ID_SEM_8:
+			return "/1440096897";
+
+		default:
+			System.out.println("No Sem ID..");
+			break;
+		}
+		return null;
+	}
+
+	private void extractFromVTU() throws IOException {
+			 String url = "http://results.vtu.ac.in/vitavi.php?rid="+usn+"&submit=SUBMIT";
+	         Document doc = Jsoup.connect(url).get();
+	         Elements tableElements = doc.select("tr");
+
+	         for (int i = 0; i < tableElements.size(); i++) {
+	            Element row = tableElements.get(i);
+	            Elements rowItems = row.select("td");
+	            int columnsSize = rowItems.size();
+				if (isMarksRow(rowItems)) {
+					resultData[numOfSubjectsFound][0] = rowItems.get(0).text();
+					for (int j = 0; j < columnsSize; j++) {
+						System.out.print(rowItems.get(j).text()+"  ");
+					}
+					for (int j = 1; j < columnsSize-1; j++) {
+						String marks = rowItems.get(j).text();
+						resultData[numOfSubjectsFound][j] = marks;
+					}
+					resultData[numOfSubjectsFound][columnsSize-1] = rowItems.get(columnsSize-1).text();					
+					numOfSubjectsFound++;
+					System.out.println("");
+				}
+	         }
+
+	         // For Name
+	         Elements tableElementsForName = doc.select("B");
+	         Element element = tableElementsForName.get(2);
+	         String studName = element.text();
+			System.out.println(studName);
+			this.studentName=studName;
+	         	
+	}
+	
+	private static boolean isMarksRow(Elements rowItems) {
+		int columnsSize = rowItems.size();
+		if (columnsSize == 5) {
+			try {
+				for (int j = 1; j < 3; j++) {
+					String text = rowItems.get(j).text();
+					Integer.parseInt(text);
+				}
+			} catch (NumberFormatException e) {
+				return false;
+			}
+			return true;
+		} else
+			return false;
+	}
+	
+	
+	public String getUsn() {
+		return usn;
+	}
+	public void setUsn(String usn) {
+		this.usn = usn;
+	}
+	public int getNumOfSubjectsFound() {
+		return numOfSubjectsFound;
+	}
+	public void setNumOfSubjectsFound(int numOfSubjectsFound) {
+		this.numOfSubjectsFound = numOfSubjectsFound;
+	}
+	public SITE_SOURCE getSiteSource() {
+		return siteSource;
+	}
+	public void setSiteSource(SITE_SOURCE siteSource) {
+		this.siteSource = siteSource;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public String[][] getResultData() {
+		return resultData;
+	}
+
+	public void setResultData(String[][] resultData) {
+		this.resultData = resultData;
+	}
+}
